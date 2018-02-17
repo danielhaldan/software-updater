@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareUpdater", "SoftwareUpdater\SoftwareUpdater.csproj", "{D45E05B6-5848-4305-B0F2-CAE428E01D2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareUpdater.Interface", "SoftwareUpdater\SoftwareUpdater.Interface.csproj", "{D45E05B6-5848-4305-B0F2-CAE428E01D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareUpdater.Library", "SoftwareUpdater.Library\SoftwareUpdater.Library.csproj", "{339BB77A-32A7-4C59-AF35-BEF9EA395D0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D45E05B6-5848-4305-B0F2-CAE428E01D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45E05B6-5848-4305-B0F2-CAE428E01D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45E05B6-5848-4305-B0F2-CAE428E01D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339BB77A-32A7-4C59-AF35-BEF9EA395D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339BB77A-32A7-4C59-AF35-BEF9EA395D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339BB77A-32A7-4C59-AF35-BEF9EA395D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339BB77A-32A7-4C59-AF35-BEF9EA395D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
